@@ -726,7 +726,7 @@
 
 
 
-    xdescribe('21. Count key in object', function() {
+    describe('21. Count key in object', function() {
       var input = {'e': {'x':'y'}, 't':{'r': {'e':'r'}, 'p': {'y':'r'}},'y':'e'};
 
       it('should return a number', function() {
@@ -756,7 +756,7 @@
 
 
 
-    xdescribe('22. Count value in object', function() {
+    describe('22. Count value in object', function() {
       var input = {'e': {'x':'y'}, 't':{'r': {'e':'r'}, 'p': {'y':'r'}},'y':'e'};
 
       it('should return a number', function() {
@@ -786,7 +786,7 @@
 
 
 
-    xdescribe('23. Replace keys in object', function() {
+    describe('23. Replace keys in object', function() {
 
       var tallyKeys = function(obj) {
         var count = 0;
@@ -961,7 +961,7 @@
 
 
 
-    xdescribe('28. Sum even numbers in nested objects', function() {
+    describe('28. Sum even numbers in nested objects', function() {
       var obj = {
         a: 2,
         b: {b: 2, bb: {b: 3, bb: {b: 2}}},
@@ -1073,7 +1073,7 @@
 
 
 
-    xdescribe('32. Augment each element in nested arrays', function() {
+    describe('32. Augment each element in nested arrays', function() {
 
       it('should return an array', function() {
         expect(Array.isArray(augmentElements([[],[3],[7]], 5))).to.equal(true);
@@ -1147,7 +1147,7 @@
 
 
 
-    xdescribe('35. Convert numbers to text', function() {
+    describe('35. Convert numbers to text', function() {
 
       it('should return a string', function() {
         expect(typeof(numToText("I have 5 dogs and 6 ponies"))).to.equal('string');
